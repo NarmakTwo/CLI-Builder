@@ -1,4 +1,4 @@
-# Cli Builder (BETA)
+# Cli Builder (APLHA)
 Soon to be the best way to make a Command-Line Interface
 <br><br><br>
 ## How to use
