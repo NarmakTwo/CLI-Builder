@@ -20,10 +20,20 @@ def main():
       out = ''
       for i in cmds['Cmds']:
         out += f'{i["Usage"]}   -{i["Dis"]}\\n'
+      out += 'Type `help` or `?` to see this again.'
 
       add = {
         'Name':'help',
-        'Usage':'help [command]',
+        'Usage':'help',
+        'Dis':'Learn what a command does',
+        'Code':f'print("{out}")'
+      }
+      
+      cmds["Cmds"].append(add)
+
+      add = {
+        'Name':'?',
+        'Usage':'?',
         'Dis':'Learn what a command does',
         'Code':f'print("{out}")'
       }

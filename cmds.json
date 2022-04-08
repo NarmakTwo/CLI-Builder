@@ -22,9 +22,9 @@
       "Code":"os.system('clear')"
     },
     {
-      "Name":"fhack",
+      "Name":"hack",
       "Usage":"hack",
-      "Dis":"Refresh the terminal",
+      "Dis":"Fake hack",
       "Code":"print(f'DIP: {random.randint(100,999)}.{random.randint(10,99)}.1.{random.randint(0,20)} PASSID: {random.randint(1,1000000)}')"
     }
   ]
