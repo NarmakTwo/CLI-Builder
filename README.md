@@ -2,7 +2,7 @@
 Soon to be the best way to make a Command-Line Interface
 <br><br><br>
 ## How to use
-First things first fork this project, then you can change cmds.json to your liking, here's an example:
+First things first download the `copycode` folder, then you can change cmds.json to your liking, here's an example:
 ```json
 {
   "Name":"example",
