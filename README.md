@@ -5,7 +5,7 @@ Soon to be the best way to make a Command-Line Interface
 First things first download the `copycode` folder, then you can change cmds.json to your liking, here's an example:
 ```json
 {
-  "Name":"example",
+  "Name":"Hsab CLI",
   "GenerateHelp":true,
   "Startup":"import asciiphoyo (not real module)",
   "Cmds":[
