@@ -1,0 +1,31 @@
+{
+  "Name":"TestCLI",
+  "GenerateHelp":true,
+  "Startup":"import random",
+  "Cmds":[
+    {
+      "Name":"echo",
+      "Usage":"echo [text]",
+      "Dis":"Print a string to the shell",
+      "Code":"print(' '.join(args))"
+    },
+    {
+      "Name":"cat",
+      "Usage":"cat [file]",
+      "Dis":"Read a file line by line",
+      "Code":"print(open(args[0],'r').read())"
+    },
+    {
+      "Name":"clear",
+      "Usage":"clear",
+      "Dis":"Refresh the terminal",
+      "Code":"os.system('clear')"
+    },
+    {
+      "Name":"hack",
+      "Usage":"hack",
+      "Dis":"Fake hack",
+      "Code":"print(f'DIP: {random.randint(100,999)}.{random.randint(10,99)}.1.{random.randint(0,20)} PASSID: {random.randint(1,1000000)}')"
+    }
+  ]
+}
