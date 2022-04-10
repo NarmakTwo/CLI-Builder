@@ -26,7 +26,10 @@ while True:
       elif cmd not in cmds:
           print(f'{termName}: {cmd}: Command not found.')
       elif cmd == 'exit':
+          print('exit')
           break
 # $commands
     except Exception as e:
       print(f'{termName}: {e.__class__.__name__}: {e}')
+    except KeyboardInterrupt:
+      print('^C')
