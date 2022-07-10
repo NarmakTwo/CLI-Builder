@@ -19,7 +19,7 @@ First things first download the `copycode` folder, then you can change cmds.json
       "Name":"roll",
       "Usage":"roll",
       "Dis":"rickroll :)",
-      "Code":"print(asciiphoyo(asciiphoyo.rick('roll')))"
+      "Code":"print(asciiphoyo(asciiphoyo.img('8527883465647365847654.rickroll')))"
     },
   ]
 }
