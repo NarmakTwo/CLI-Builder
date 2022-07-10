@@ -33,6 +33,3 @@ First things first download the `copycode` folder, then you can change cmds.json
 * **`build.py`**
 * **`template.py`**
 * **`cmds.json`**
-
-If you would like to, you may delete `main.py` and `out.py`
-
